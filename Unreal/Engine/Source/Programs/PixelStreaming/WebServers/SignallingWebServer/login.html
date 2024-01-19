@@ -1,0 +1,102 @@
+<!-- Copyright Epic Games, Inc. All Rights Reserved. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link
+            rel="shortcut icon"
+            href="/images/favicon.ico"
+            type="image/x-icon"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="/images/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/images/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/images/favicon-16x16.png"
+        />
+        <link type="text/css" rel="stylesheet" href="tailwind.css" />
+        <link type="text/css" rel="stylesheet" href="index.css" />
+        <title>Login</title>
+    </head>
+
+    <body>
+        <div class="container mx-auto">
+            <div class="flex flex-col items-center mt-32">
+                <div>
+                    <form action="/login" method="post">
+                        <div class="flex flex-col items-center">
+                            <div class="text-3xl my-4">Login</div>
+                            <div
+                                class="
+                                    flex flex-col
+                                    py-1.5
+                                    px-4
+                                    rounded
+                                    border border-gray-600
+                                "
+                            >
+                                <label class="text-xs pb-1" for="name"
+                                    >Username</label
+                                >
+                                <input
+                                    class="bg-transparent outline-none w-64"
+                                    type="text"
+                                    id="username"
+                                    name="username"
+                                    autocomplete="username"
+                                />
+                            </div>
+                            <div
+                                class="
+                                    flex flex-col
+                                    py-1.5
+                                    px-4
+                                    rounded
+                                    border border-gray-600
+                                    my-2
+                                "
+                            >
+                                <label class="text-xs pb-1" for="mail"
+                                    >Password</label
+                                >
+                                <input
+                                    class="bg-transparent outline-none w-64"
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    autocomplete="current-password"
+                                />
+                            </div>
+                            <div class="my-4">
+                                <button
+                                    type="submit"
+                                    class="
+                                        bg-blue-600
+                                        rounded
+                                        text-white
+                                        px-8
+                                        py-2
+                                    "
+                                >
+                                    Login
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

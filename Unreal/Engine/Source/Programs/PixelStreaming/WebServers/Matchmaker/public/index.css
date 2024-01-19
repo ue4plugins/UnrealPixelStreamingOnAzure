@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Brutal";
+  src: url("fonts/Brutal-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brutal";
+  src: url("fonts/Brutal-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brutal";
+  src: url("fonts/Brutal-Semibold.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brutal";
+  src: url("fonts/Brutal-Semilight.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  color: #141414;
+  font-family: 'Brutal', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

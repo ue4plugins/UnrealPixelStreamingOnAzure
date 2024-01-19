@@ -1,0 +1,139 @@
+{
+  "basics_vmSizeSignalServer": {
+    "value": "Standard_NV12s_v3"
+  },
+  "basics_vmSizeMatchMaker": {
+    "value": "Standard_F4s_v2"
+  },
+  "basics_vmStorageTypeMatchMaker": {
+    "value": "Standard_LRS"
+  },
+  "basics_pixelStreamZip": {
+    "value": "Replace & with %26 in the storage link"
+  },
+  "basics_pixelStreamingAppName": {
+    "value": ""
+  },
+  "basics_userModifications": {
+    "value": false
+  },
+  "basics_adminName": {
+    "value": "azureadmin"
+  },
+  "scale_regionsSelectedAsString": {
+    "value": "[\"eastus\"]"
+  },
+  "scale_gpuInstances": {
+    "value": 2
+  },
+  "scale_instancesPerVM": {
+    "value": 1
+  },
+  "scale_spotEnable": {
+    "value": false
+  },
+  "scale_spotEvictionPolicy": {
+    "value": "Delete"
+  },
+  "scale_spotRestorePolicy": {
+    "value": false
+  },
+  "scale_spotRestoreTimeout": {
+    "value": 60
+  },
+  "scale_spotEvictionType": {
+    "value": "capacity"
+  },
+  "scale_spotMaxPrice": {
+    "value": "0.078"
+  },
+  "scale_enableAutoScale": {
+    "value": true
+  },
+  "scale_percentBuffer": {
+    "value": 25
+  },
+  "scale_instanceCountBuffer": {
+    "value": "1"
+  },
+  "scale_minMinutesBetweenScaledowns": {
+    "value": "60"
+  },
+  "scale_scaleDownByAmount": {
+    "value": "1"
+  },
+  "scale_minInstanceCount": {
+    "value": "2"
+  },
+  "scale_maxInstanceCount": {
+    "value": "20"
+  },
+  "stream_resolutionWidth": {
+    "value": "1280"
+  },
+  "stream_resolutionHeight": {
+    "value": "720"
+  },
+  "stream_framesPerSecond": {
+    "value": "30"
+  },
+  "security_tmSubdomainName": {
+    "value": "erik"
+  },
+  "security_enableHttps": {
+    "value": false
+  },
+  "security_enablePixelStreamingCommands": {
+    "value": true
+  },
+  "security_dnsConfig": {
+    "value": {
+      "id": "/subscriptions/f8d440ed-264b-4a91-8ab9-0b1694914abf/resourceGroups/OtherAssets/providers/Microsoft.Network/dnszones/azurepixelstreaming.com",
+      "location": "global",
+      "name": "azurepixelstreaming.com"
+    }
+  },
+  "security_enableAuthOnSS": {
+    "value": false
+  },
+  "network_matchmakerPublicPort": {
+    "value": "80"
+  },
+  "network_matchmakerInternalApiPort": {
+    "value": "81"
+  },
+  "network_matchmakerInternalPort": {
+    "value": "9999"
+  },
+  "network_pixelStreamingPort": {
+    "value": "8888"
+  },
+  "network_vnetMask": {
+    "value": "10.1.0.0/24"
+  },
+  "network_turnServerAddress": {
+    "value": ""
+  },
+  "network_stunServerAddress": {
+    "value": "stun:stun.l.google.com:19302"
+  },
+  "network_turnUsername": {
+    "value": ""
+  },
+  "network_turnPassword": {
+    "value": ""
+  },
+  "dashboard_aadClientId": {
+    "value": "2a59be13-aa7c-4082-a121-56001e931e69"
+  },
+  "location": {
+    "value": "westeurope"
+  },
+  "basics_customImage": {
+    "value": {
+      "id": "/subscriptions/f8d440ed-264b-4a91-8ab9-0b1694914abf/resourceGroups/customImageGalleryRG/providers/Microsoft.Compute/galleries/customImageGallery/images/myCustomImageDefinition",
+      "location": "eastus",
+      "name": "myCustomImageDefinition"
+    }
+  }
+}

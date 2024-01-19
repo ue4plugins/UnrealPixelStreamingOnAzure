@@ -1,0 +1,21 @@
+{
+  "name": "cirrus-matchmaker",
+  "version": "0.0.1",
+  "description": "Cirrus servers connect to the Matchmaker which redirects a browser to the next available Cirrus server",
+  "dependencies": {
+    "@7c/parsedomain": "2.2.0",
+    "@azure/arm-compute": "^15.0.0",
+    "@azure/data-tables": "^12.0.0-beta.3",
+    "@azure/logger": "^1.0.0",
+    "@azure/ms-rest-nodeauth": "^3.0.6",
+    "@azure/storage-blob": "^12.5.0",
+    "applicationinsights": "^1.8.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "yargs": "^16.2.0"
+  }
+}

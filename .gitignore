@@ -1,0 +1,9 @@
+package/release*
+node_modules
+*.log
+
+# arm/mainTemplate.json
+*.zip
+packages-microsoft-prod.deb
+arm-ttk
+ci-scripts
