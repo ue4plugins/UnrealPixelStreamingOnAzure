@@ -27,7 +27,7 @@ This repository contains the code and scripts needed to build and package the Az
 
 - [Packer templates](packer/README.md) for building the virtual machine image used in the Azure Resource Manager (ARM) templates.
 - A set of [ARM templates](arm) and scripts for deploying Unreal Pixel Streaming in Azure.
-- A custom [React dashboard](Unreal/Engine/Source/Programs/PixelStreaming/WebServers/Dashboard/README.md) to manage Pixel Streaming deployments.
+- A custom [React dashboard](Unreal/Engine/Source/Programs/PixelStreaming/WebServers/Dashboard) to manage Pixel Streaming deployments.
 - Customizations and enhancements to the Pixel Streaming servers ([Matchmaker](Unreal/Engine/Source/Programs/PixelStreaming/WebServers/Matchmaker) and [SignallingServer](Unreal/Engine/Source/Programs/PixelStreaming/WebServers/SignallingWebServer)) for auto-scaling and stability.
 
 ## Preparing for the Azure Marketplace
