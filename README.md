@@ -1,6 +1,6 @@
 # Azure Marketplace: Unreal Pixel Streaming
 
-##WARNING and Welcome
+## WARNING and Welcome
 This repository contains all the source code for the [Unreal Pixel Streaming](https://azuremarketplace.microsoft.com/en-US/marketplace/apps/epicgames.unreal-pixel-streaming?tab=overview) product from the Azure Marketplace, co-developed by Microsoft and Epic Games. Support and maintenance has ended for this project, so the code is being published and open-sourced in an effort to provide as much value as possible to the community after so much effort went into its development.
 
 The code is being provided *as is*, and significant effort should be expected on the user's part to repurpose this repo for their own needs. It was architected very specifically to be an Azure Marketplace product, so a large portion of the code base and the majority of the documentation within is oriented around building VM images and packging the Azure Application template in a very specific way. This project was not initially built and tested for broad public usage. You should expect there to be errors or undocumented steps. *Support of any kind is not provided*, but the hope is that it can help jumpstart your project or take it to the next level.
